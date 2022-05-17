@@ -1,4 +1,7 @@
 # Kaggle Happy Whale
+
+[Happywhale - Whale and Dolphin Identification](https://www.kaggle.com/competitions/happy-whale-and-dolphin)
+
 Individual identification from whale and dolphin images
 
 The code here is mostly what I used to generate cropped images from the original dataset.  I hand annotated 2000 whale images using CVAT, with classes Left, Right and Unknown.  I had planned to use those classes to flip the images horizontally, or train left and right sided whales seperately.  In the end I didn't get that far, and reduced the annotations to a single class.
